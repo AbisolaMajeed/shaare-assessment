@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
         submitButton.disabled = cleaningCount !== 1;
     }
 
-    bookingForm.addEventListener('submit', function (event) {
-        event.preventDefault();
-        alert('Form submitted!');
-    });
+    // bookingForm.addEventListener('submit', function (event) {
+    //     event.preventDefault();
+    //     alert('Form submitted!');
+    // });
 });
