@@ -1,0 +1,106 @@
+/* Additional styles */
+body {
+    color: #024751;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.header {
+    margin-bottom: 30px;
+    background-color: #024751;
+    padding: 30px;
+}
+
+.header i {
+    color: white;
+}
+
+.form-check-input .border {
+    color: #024751;
+}
+
+.form-check-input[type=checkbox] {
+    border-color: #024751;
+    width: 0.7em;
+    height: 0.7em;
+    float: right;
+}
+
+.btn {
+    background-color: #FF5416;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.form-check {
+    padding: 0.4em 0.8em;
+    border: 1px solid #eff6f7;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #FF5416;
+    color: #eff6f7;
+}
+
+.form-check-label {
+    float: left;
+    font-size: small;
+}
+
+.btn:disabled {
+    background-color: #FF5416;
+    opacity: 0.4;
+    color: #eff6f7;
+}
+
+/* Style for the card when unchecked */
+.unchecked-card {
+    border: 1px solid #eff6f7;
+}
+
+/* Style for the card when checked */
+.checked-card {
+    border-color: #a6c3c7;
+}
+
+/* Style for the scrollbar */
+.scrollable-list::-webkit-scrollbar {
+    width: 4px;
+    /* Set the width of the scrollbar */
+}
+
+/* Track */
+.scrollable-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Set the background color of the scrollbar track */
+}
+
+/* Handle */
+.scrollable-list::-webkit-scrollbar-thumb {
+    background: #024751;
+    /* Set the color of the scrollbar thumb */
+    border-radius: 5px;
+    /* Set the radius of the scrollbar thumb */
+}
+
+@media (min-width: 768px) 
+{
+    /* Mobile view CSS */
+    .btn {
+        width:50%;
+        margin:0 auto;
+        text-align:center;
+    }
+
+    .container {
+        margin:0 auto;
+        width: 500px;;
+    }
+}
